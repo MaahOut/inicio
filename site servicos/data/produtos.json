@@ -1,0 +1,85 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Adubo Orgânico Natural",
+      "descricao": "Melhora a fertilidade do solo e aumenta a produtividade das suas plantações.",
+      "preco": 89.90,
+      "categoria": "agricolas",
+      "imagem": "https://via.placeholder.com/300x200?text=Adubo+Orgânico"
+    },
+    {
+      "id": 2,
+      "nome": "Sementes de Milho Híbrido",
+      "descricao": "Resistente à seca, com alto potencial de rendimento e qualidade superior.",
+      "preco": 129.90,
+      "categoria": "agricolas",
+      "imagem": "https://via.placeholder.com/300x200?text=Sementes+Milho"
+    },
+    {
+      "id": 3,
+      "nome": "Fertilizante Líquido NPK",
+      "descricao": "Fornece nutrientes essenciais às plantas, promovendo crescimento saudável.",
+      "preco": 74.50,
+      "categoria": "agricolas",
+      "imagem": "https://via.placeholder.com/300x200?text=Fertilizante+Líquido"
+    },
+    {
+      "id": 4,
+      "nome": "Inseticida Biológico",
+      "descricao": "Controla pragas sem prejudicar o meio ambiente, seguro para plantações orgânicas.",
+      "preco": 59.90,
+      "categoria": "agricolas",
+      "imagem": "https://via.placeholder.com/300x200?text=Inseticida+Biológico"
+    },
+    {
+      "id": 5,
+      "nome": "Cobertura de Solo Orgânica",
+      "descricao": "Conserva a umidade do solo, controla ervas daninhas e melhora a estrutura do solo.",
+      "preco": 45.90,
+      "categoria": "agricolas",
+      "imagem": "https://via.placeholder.com/300x200?text=Cobertura+Solo"
+    },
+    {
+      "id": 6,
+      "nome": "Trator Agrícola Modelo X200",
+      "descricao": "50 HP, ideal para tarefas agrícolas pesadas, com alta durabilidade e baixo consumo.",
+      "preco": 125990.00,
+      "categoria": "maquinarios",
+      "imagem": "https://via.placeholder.com/300x200?text=Trator+Agrícola"
+    },
+    {
+      "id": 7,
+      "nome": "Colheitadeira de Grãos Modelo Y300",
+      "descricao": "Alta capacidade de processamento, eficiente e fácil de operar.",
+      "preco": 289990.00,
+      "categoria": "maquinarios",
+      "imagem": "https://via.placeholder.com/300x200?text=Colheitadeira+Grãos"
+    },
+    {
+      "id": 8,
+      "nome": "Motocultivador Multifuncional",
+      "descricao": "Versátil para preparo de solo, plantio e manutenção, com diferentes acessórios.",
+      "preco": 15990.00,
+      "categoria": "maquinarios",
+      "imagem": "https://via.placeholder.com/300x200?text=Motocultivador"
+    },
+    {
+      "id": 9,
+      "nome": "Gerador de Energia 10KVA",
+      "descricao": "Robusto para uso em fazendas, eventos ou obras, garantindo energia confiável.",
+      "preco": 12490.00,
+      "categoria": "maquinarios",
+      "imagem": "https://via.placeholder.com/300x200?text=Gerador+Energia"
+    },
+    {
+      "id": 10,
+      "nome": "Limpador de Filtros de Máquinas",
+      "descricao": "Limpeza eficiente de filtros de tratores e colheitadeiras, prolongando a vida útil.",
+      "preco": 1290.00,
+      "categoria": "maquinarios",
+      "imagem": "https://via.placeholder.com/300x200?text=Limpador+Filtros"
+    }
+  ]
+}
+

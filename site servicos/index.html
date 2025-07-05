@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroMec - Vendas Agrícolas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>AgroMec</h1>
+        <p>Soluções completas para sua produção agrícola</p>
+    </header>
+    
+    <nav>
+        <div>
+            <a href="#" class="active">Home</a>
+            <a href="#produtos-agricolas">Produtos Agrícolas</a>
+            <a href="#produtos-maquinarios">Maquinários</a>
+        </div>
+        <div>
+            <a href="#" id="login-btn">Login</a>
+            <a href="#" id="carrinho-btn">Carrinho (<span id="carrinho-count">0</span>)</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <aside>
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="#produtos-agricolas">Fertilizantes</a></li>
+                <li><a href="#produtos-agricolas">Sementes</a></li>
+                <li><a href="#produtos-agricolas">Defensivos</a></li>
+                <li><a href="#produtos-maquinarios">Tratores</a></li>
+                <li><a href="#produtos-maquinarios">Colheitadeiras</a></li>
+                <li><a href="#produtos-maquinarios">Acessórios</a></li>
+            </ul>
+            
+            <h2 style="margin-top: 2rem;">Promoções</h2>
+            <div class="produto-card" style="margin-top: 1rem;">
+                <div class="produto-imagem" style="background-image: url('https://via.placeholder.com/300x200?text=Oferta+Especial');"></div>
+                <div class="produto-info">
+                    <h3>Oferta da Semana</h3>
+                    <p>Descontos especiais em produtos selecionados</p>
+                    <a href="#" class="btn btn-block">Ver Ofertas</a>
+                </div>
+            </div>
+        </aside>
+        
+        <main>
+            <section id="produtos-agricolas">
+                <h2>Produtos Agrícolas</h2>
+                <div class="produtos-grid">
+                    <!-- Produtos serão carregados via JavaScript -->
+                </div>
+            </section>
+            
+            <section id="produtos-maquinarios" style="margin-top: 3rem;">
+                <h2>Produtos de Manutenção de Maquinários</h2>
+                <div class="produtos-grid">
+                    <!-- Produtos serão carregados via JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Modal de Login -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" required>
+                </div>
+                <button type="submit" class="btn btn-block">Entrar</button>
+                <p style="margin-top: 1rem; text-align: center;">Não tem conta? <a href="#" id="cadastro-link">Cadastre-se</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Modal de Cadastro -->
+    <div id="cadastro-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cadastro</h2>
+            <form id="cadastro-form">
+                <div class="form-group">
+                    <label for="nome-cadastro">Nome Completo</label>
+                    <input type="text" id="nome-cadastro" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-cadastro">E-mail</label>
+                    <input type="email" id="email-cadastro" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha-cadastro">Senha</label>
+                    <input type="password" id="senha-cadastro" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmar-senha">Confirmar Senha</label>
+                    <input type="password" id="confirmar-senha" required>
+                </div>
+                <button type="submit" class="btn btn-block">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>AgroMec &copy; 2023 - Todos os direitos reservados</p>
+        <p>Contato: contato@agromec.com.br | (11) 1234-5678</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
